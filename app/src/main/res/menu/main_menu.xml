@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_news"
+            android:title="Nachrichten"/>
+        <item
+            android:id="@+id/nav_labs"
+            android:title="Labore"/>
+    </group>
+
+    <item android:title="Soziale Medien">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:title="PIKSL auf Facebook" />
+
+                <item
+                    android:id="@+id/nav_instagram"
+                    android:title="PIKSL auf Instagram" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sonstiges">
+        <menu>
+
+            <item
+                android:id="@+id/nav_datenschutz"
+                android:title="Datenschutz" />
+
+            <item
+                android:id="@+id/nav_impressum"
+                android:title="Impressum" />
+        </menu>
+    </item>
+
+
+</menu>
